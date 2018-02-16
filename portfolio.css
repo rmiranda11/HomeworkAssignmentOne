@@ -96,16 +96,16 @@ html {
 
 .wrapper{
     width:90%;
-    height:500px;
+    height:800px;
     margin:auto;
     background-image:url(spiration-light.png);
     position:relative;
     display:flex;
 }
-/* Box where About me goes*/
+
 .aboutMe{
     width:650px;
-    height: 400px;
+    height: 710px;
     position:absolute;
     left:100px;
     top:50px;
@@ -121,7 +121,107 @@ html {
     background-color: #ffffff;
 }
 
+_firstname,_email,_message{
+    width:90%;
+    padding:10px;
+    display:flex;
+    text-align: left;
+    margin:5px;
+}
 
+_form{
+    text-align:left;
+    padding:10px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+}
+
+_button{
+    background-color:#4aaaa5;
+    width:110px;
+    padding:10px;
+    margin:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    font-size:15px;
+}
+
+.headphones{
+    float:left;
+    margin-left:20px;
+}
+
+.hp{
+    width:300px;
+    height:60px;
+    background-color: #4aaaa5;
+    position:absolute;
+    left:0px;
+    top:300px;
+    padding-top:17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size:25px;
+    margin-left:20px;
+}
+
+.baseball{
+    float:left;
+    margin-left:20px;
+}
+
+.bb{
+    width:300px;
+    height:60px;
+    background-color: #4aaaa5;
+    position:absolute;
+    left:320px;
+    top:300px;
+    padding-top:17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size:25px;
+    margin-left:20px;
+}
+
+.website{
+    float:left;
+    margin:10px 0 0 20px;
+}
+
+.web{
+    width:300px;
+    height:60px;
+    background-color: #4aaaa5;
+    position:absolute;
+    left:0px;
+    top:600px;
+    padding-top:17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size:25px;
+    margin-left:20px;
+}
+
+.food{
+    float:left;
+    margin:10px 0 0 20px;
+}
+
+.burger{
+    width:300px;
+    height:60px;
+    background-color: #4aaaa5;
+    position:absolute;
+    left:320px;
+    top:600px;
+    padding-top:17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    font-size:25px;
+    margin-left:20px;
+}
 .footer{
     left: 0;
     bottom: 0;
@@ -135,15 +235,15 @@ html {
     border-top-color: #4aaaa5;
     border-width:7px;
     padding-top: 40px;
-    font-size: 9px;
+    font-size:9px;
 }
 
-.pic{
+_pic{
     float:left;
     margin:18px;
 }
 
-.intro{
+_intro{
   text-align:left;
   color:#777777;
   font-size:14;
@@ -156,12 +256,12 @@ html {
 
 .h2{
     color:#4aaaa5;
-    font-size:20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:25px;
     text-align:left;
     font-weight:bold;
     padding:15px;
+    margin:5px;
 }
 
 .about,.portfolio,.contact{
@@ -182,7 +282,7 @@ html {
     }
 
 hr{
-    width:90%;
+    width:95%;
 }
 
 .fa {
@@ -220,4 +320,10 @@ hr{
 }
 .stockoverflow:hover{
     opacity: 0.7;
+}
+
+.form{
+    height:300px;
+    width:650px;
+    background-color:#ffffff;
 }
